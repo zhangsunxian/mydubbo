@@ -10,4 +10,5 @@ public interface UserServiceI {
 
     public User getUserById(Integer id);
 
+    User getUserFromMysql(Integer id);
 }

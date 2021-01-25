@@ -1,4 +1,4 @@
 .idea/
 dubbo-api/target/generated-sources/
-dubbo-comsumer/target/generated-sources/
-dubbo-provider/target/generated-sources/
+dubbo-comsumer/target/
+dubbo-provider/target/

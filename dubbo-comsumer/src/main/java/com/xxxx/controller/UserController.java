@@ -27,4 +27,12 @@ public class UserController {
         return userById;
     }
 
+    @ResponseBody
+    @RequestMapping(value = "/getUserFromMysql",method = RequestMethod.GET)
+    public User getUserFromMysql(@RequestParam("id") Integer id) {
+        User userById = serviceI.getUserFromMysql(id);
+        System.out.println("客户端获取到数据："+userById);
+        return userById;
+    }
+
 }

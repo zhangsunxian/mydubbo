@@ -15,7 +15,6 @@ import java.io.IOException;
 @SpringBootApplication
 //@EnableDubboConfig
 @EnableDubbo
-//@ImportResource({"classpath:spring-dubbo.xml"})
 public class ProviderApplication {
 
     public static void main(String[] args) {
