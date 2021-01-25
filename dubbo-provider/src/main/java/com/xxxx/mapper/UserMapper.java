@@ -2,6 +2,7 @@ package com.xxxx.mapper;
 
 import com.xxxx.pojo.User;
 import org.apache.ibatis.annotations.Mapper;
+import org.apache.ibatis.annotations.Param;
 
 /**
  * @author zhuyp
@@ -9,6 +10,6 @@ import org.apache.ibatis.annotations.Mapper;
  */
 @Mapper
 public interface UserMapper {
-    public User getUserFromMysql(Integer id);
+    public User getUserFromMysql(@Param("id") Integer id);
 
 }

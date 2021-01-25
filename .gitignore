@@ -2,3 +2,4 @@
 dubbo-api/target/generated-sources/
 dubbo-comsumer/target/
 dubbo-provider/target/
+*.iml
