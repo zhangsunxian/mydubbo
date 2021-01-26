@@ -5,6 +5,8 @@ import com.alibaba.dubbo.config.spring.context.annotation.EnableDubboConfig;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ImportResource;
+import org.springframework.web.servlet.config.annotation.EnableWebMvc;
+import springfox.documentation.oas.annotations.EnableOpenApi;
 
 import java.io.IOException;
 
@@ -15,6 +17,7 @@ import java.io.IOException;
 @SpringBootApplication
 //@EnableDubboConfig
 @EnableDubbo
+@EnableOpenApi
 public class ProviderApplication {
 
     public static void main(String[] args) {
