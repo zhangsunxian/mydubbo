@@ -1,5 +1,5 @@
 .idea/
-dubbo-api/target/generated-sources/
+dubbo-api/target/
 dubbo-comsumer/target/
 dubbo-provider/target/
 *.iml
